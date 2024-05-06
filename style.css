@@ -165,8 +165,7 @@ header {
     padding: 10px;
     text-align: center;
     width: 80%;
-    height: 500px;
-    overflow: scroll;
+    height: auto;
 }
 
 .content img {
@@ -205,7 +204,7 @@ p {
 .pull-quote {
     text-align: center;
     margin: 0 auto;
-    width: 400px;
+    width: auto;
 }
 
 .pull-quote img {
@@ -227,12 +226,37 @@ p {
   
 footer {
     border: 1px solid lightgray;
-    padding: 40px 0px;
+    margin-top: 100px;
     position: relative;
     text-align: center;
     width: 100%;
 }
-  
+
+#credits {
+    background-color: lightblue;
+}
+
+#credits img {
+    border: 3px solid white;
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	bottom: 100px;
+	z-index: 1;
+    margin: 0 auto;
+}
+
+#credits h3 {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    bottom: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
 footer a {
     background: lightblue;
     border: 1px solid lightblue;
@@ -248,4 +272,43 @@ footer a:hover {
     background: white;
     border: 1px solid lightblue;
     color: lightblue;
+}
+
+#social {
+    margin: 20px 0;
+}
+
+#social a {
+    border: none;
+    background: white;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	opacity: 0.70;
+    margin: 0;
+}
+
+#social a:hover {
+	opacity: 1;
+}
+
+#social a#github {
+	background-image: url('./images/github.png')
+}
+
+#social a#linkedin {
+	background-image: url('./images/linkedin.png')
+}
+
+#social a#facebook {
+	background-image: url('./images/instagram.png')
+}
+
+#social a#twitter {
+    background-image: url('./images/twitter.png');
+}
+
+#social a#instagram {
+	background-image: url('./images/facebook.png')
 }
